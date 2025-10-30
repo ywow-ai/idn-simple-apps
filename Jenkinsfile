@@ -22,7 +22,7 @@ pipeline {
                 sh'''
                 cd app
                 APP_PORT=5500 yarn run test
-                APP_PORT=5500 yarn run run test:coverage
+                APP_PORT=5500 yarn run test:coverage
                 '''
             }
         }
